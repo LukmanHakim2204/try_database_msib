@@ -1,0 +1,119 @@
+/* Gaya dasar untuk elemen HTML */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.container h2 {
+  text-align: center;
+}
+/* Gaya untuk header */
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 15px 0;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Gaya untuk tombol tambah */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Gaya untuk tombol kembali */
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+  border-color: #545b62;
+}
+
+/* Gaya untuk tabel */
+.table {
+  margin-top: 20px;
+  border: 1px solid #dee2e6;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 372px) {
+  .table {
+    overflow: auto;
+    font-size: 12px; /* Mengurangi ukuran font */
+  }
+
+  .table th,
+  .table td {
+    padding: 5px; /* Mengurangi padding */
+  }
+
+  .btn {
+    font-size: 12px; /* Mengurangi ukuran font tombol */
+    padding: 5px 10px; /* Mengurangi padding tombol */
+  }
+
+  /* Atur ruang antar kolom */
+  .table th,
+  .table td {
+    width: 10%; /* Atur lebar kolom menjadi 10% dari lebar tabel */
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+/* Gaya untuk form input */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol "Simpan" */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Gaya untuk tombol "Hapus" */
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
